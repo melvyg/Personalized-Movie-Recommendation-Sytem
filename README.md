@@ -1,5 +1,7 @@
 # Personalized Movie Recommendation Engine - Using Content-Based and Collaborative Filter Methods to Provide Movie Recommendations 
 
+![Visual1](./2-images/movie_streaming.jpg)
+
 **Author**: Melvin Garcia
 
 ## Overview
@@ -33,7 +35,7 @@ Below are a few useful observations when preparing the data:
 * Tags are user-generated metadata about movies. Each tag is typically a single word or short phrase. The meaning, value, and purpose of a particular tag is determined by each user.
 * Ratings are made on a 5-star scale, with half-star increments (0.5 stars - 5.0 stars).
 - Genres are pipe separated
-- Our links dataframe contains external information to IMDB and MovieDB information, but since we are focused on building a collaborative filter for the time bring, we do not require this information
+- Our links dataframe contains external information to IMDB and MovieDB information, but since we are focused on building a collaborative filter for the time bring, we do not require this information at the moment.
 
 **Collaborative Filter Model Exploration and Iteration**
 
@@ -81,7 +83,7 @@ Lastly, to test our new hybrid model, we can perform a set of A/B tests in which
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./0-MovieLens_Recommendation_System.ipynb) or our [presentation](./MicrosoftMovieAnalysis_Flatiron_Presentation_MG.pdf).
+Please review our full analysis in [our Jupyter Notebook](./0-MovieLens_Recommendation_System.ipynb) or our [presentation](./MovieTimeRecommenderSystem_Flatiron_Presentation_MG.pdf).
 
 For any additional questions, please contact **Melvin Garcia garciamelvin4@gmail.com**
 
@@ -90,7 +92,8 @@ For any additional questions, please contact **Melvin Garcia garciamelvin4@gmail
 ```
 ├── README.md                           
 ├── 0-MovieLens_Recommendation_System.ipynb 
-├── MicrosoftMovieAnalysis_Flatiron_Presentation_MG.pdf
+├── 0-MovieLens_Recommendation_System.pdf 
+├── MovieTimeRecommenderSystem_Flatiron_Presentation_MG.pdf
 ├── data
 └── images
 ```
